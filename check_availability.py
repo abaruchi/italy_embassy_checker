@@ -137,7 +137,7 @@ def main():
     email_notificator = notificator_builder('email', email_params)
 
     op = webdriver.ChromeOptions()
-    op.add_argument('headless')
+    # op.add_argument('headless')
     op.add_argument("--disable-gpu")
     op.add_argument("--disable-blink-features=AutomationControlled")
     driver = webdriver.Chrome(op)

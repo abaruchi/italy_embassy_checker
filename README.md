@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
+
 # Introduction
 
 This script checks if there is available dates on Italy's Embassy website. Note that the script doesn't check 
@@ -9,7 +11,7 @@ script to run in a cron job regularly.
 
 # How to Install
 
-Install all requirements
+Please, make sure you are using **python 3.8** or greater before going further. To install all the requirements:
 
 ```bash
 pip install -r requirements.txt
@@ -28,6 +30,8 @@ EMBASSY_USERNAME="<embassy_username>"
 EMBASSY_PASSWORD="<embassy_password>"
 EMBASSY_HTTP_SERVER="https://prenotami.esteri.it/"
 ```
+
+Download and install Chrome Driver from [here](https://chromedriver.chromium.org/downloads).
 
 # Running
 
